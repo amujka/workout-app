@@ -4,8 +4,8 @@
         <div class="header__logo">
             <h1>GymForYou</h1>
         </div>
-        <header-nav v-if="windowWidth < 768" screen="mobile" :show="show"/>
-        <header-nav  v-else screen="desktop"/>
+        <header-nav v-if="windowWidth < 768" screen="mobile"/>
+        <header-nav v-else screen="desktop"/>
         
     </div>
 </header>
@@ -22,7 +22,7 @@ export default {
     data () {
         return {
             windowWidth: window.innerWidth,
-            show:true
+            
         }
     },
 
@@ -39,7 +39,7 @@ export default {
     width: 100%;
     padding: 20px;
     background-color: #42b983;
-    color: #eee;
+    color: #fff;
     box-shadow: 0 1px 5px #404040;
 
     .container {
