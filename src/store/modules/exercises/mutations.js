@@ -1,0 +1,1 @@
+export const GET_EXERCISES = (state, payload) => state.exercise = payload

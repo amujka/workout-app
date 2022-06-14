@@ -1,14 +1,7 @@
 import { createStore } from 'vuex'
-
+import exercises from './modules/exercises'
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    exercises
   }
 })
